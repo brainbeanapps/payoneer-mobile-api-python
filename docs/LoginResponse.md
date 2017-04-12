@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response_code** | **int** |  | [optional] 
+**response_code** | **int** | 1 - Success; 34 - (Assumption) Terms&amp;Conditions not agreed; | [optional] 
 **first_name** | **str** |  | [optional] 
 **last_name** | **str** |  | [optional] 
 **raf_link** | **str** |  | [optional] 

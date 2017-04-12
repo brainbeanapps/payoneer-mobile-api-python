@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response_code** | **int** |  | [optional] 
+**response_code** | **int** | 1 - Success; 34 - (Assumption) Terms&amp;Conditions not agreed; | [optional] 
 **resources** | [**Resources**](Resources.md) |  | [optional] 
 **language_code** | [**LanguageCode**](LanguageCode.md) |  | [optional] 
 **iso_code** | **str** |  | [optional] 

@@ -5,7 +5,7 @@ All URIs are relative to *https://mobileapi.payoneer.com*
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**user_get_user_settings_post**](UserApi.md#user_get_user_settings_post) | **POST** /User/GetUserSettings | Get User Settings
-[**user_login_post**](UserApi.md#user_login_post) | **POST** /User/Login | User login
+[**user_login_post**](UserApi.md#user_login_post) | **POST** /User/Login | User Login
 [**user_logout_post**](UserApi.md#user_logout_post) | **POST** /User/Logout | User Logout
 [**user_orn_link_post**](UserApi.md#user_orn_link_post) | **POST** /User/OrnLink | User ORN link
 [**user_save_user_settings_post**](UserApi.md#user_save_user_settings_post) | **POST** /User/SaveUserSettings | Save User Settings
@@ -60,7 +60,7 @@ No authorization required
 # **user_login_post**
 > LoginResponse user_login_post(request)
 
-User login
+User Login
 
 ### Example 
 ```python
@@ -75,7 +75,7 @@ api_instance = payoneer_mobile_api.UserApi()
 request = payoneer_mobile_api.LoginRequest() # LoginRequest | 
 
 try: 
-    # User login
+    # User Login
     api_response = api_instance.user_login_post(request)
     pprint(api_response)
 except ApiException as e:

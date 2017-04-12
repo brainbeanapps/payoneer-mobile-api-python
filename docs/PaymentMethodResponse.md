@@ -6,7 +6,6 @@ Name | Type | Description | Notes
 **mobile_account_id** | **int** |  | [optional] 
 **type** | **int** |  | [optional] 
 **primary_field** | **str** |  | [optional] 
-**primary_field** | **str** |  | [optional] 
 **secondary_field** | **str** |  | [optional] 
 **display_name_resource** | **str** |  | [optional] 
 **use_secondary_field** | **bool** |  | [optional] 

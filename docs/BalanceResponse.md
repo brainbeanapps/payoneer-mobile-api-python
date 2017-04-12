@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response_code** | **int** |  | [optional] 
+**response_code** | **int** | 1 - Success; 34 - (Assumption) Terms&amp;Conditions not agreed; | [optional] 
 **response_description** | **str** |  | [optional] 
 **account_balance** | **str** |  | [optional] 
 **account_balance_in_card_currency** | **str** |  | [optional] 

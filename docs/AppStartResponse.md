@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**response_code** | **int** |  | [optional] 
+**response_code** | **int** | 1 - Success; 34 - (Assumption) Terms&amp;Conditions not agreed; | [optional] 
 **description** | **str** |  | [optional] 
 **resources** | [**Resources**](Resources.md) |  | [optional] 
 **push_api_keys** | [**PushCredentials**](PushCredentials.md) |  | [optional] 
